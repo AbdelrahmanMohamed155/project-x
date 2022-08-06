@@ -1,0 +1,263 @@
+:root{
+  --main-color: #ff9800 ;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.landing-page{
+    min-height: 100vh;
+    background-image: url(../img1/opp1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.landing-page .overlay{
+    background-color: black#0000001a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #6e6e3429;
+}
+.header-eara{
+    position: relative;
+    z-index: 2;
+    color: seashell;
+    display: flex;
+    padding: 10px;
+}
+.header-eara .logo{
+   width: 300px; 
+   padding: 12px;
+   font-weight: bold;
+   color: #00bcd4;
+
+}
+.header-eara .links{
+background-color: #1e90ff70;
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.header-eara .links li{
+    display: inline-block;
+margin-left: 50px;
+font-weight: bold;
+font-size: large;
+}
+
+.header-eara .links li a{
+    color: #FFF;
+    text-decoration: non;
+transition: .3s;
+}
+.header-eara .links li a:hover,
+.header-eara .links li a.active
+{
+    color:var(--main-color);
+
+}
+.introdution-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%)
+    z-index:2;
+   color:#FFF ;
+   text-align:center ;
+
+}
+.introdution-text h1{
+
+   
+}
+
+.introdution-text h1 span{
+font-size: 100px;
+    color: var(--main-color);
+}
+.introdution-text p{
+    line-height: 1.6;
+    font-size: 30px;
+    color: #fffcef;
+}
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.about-us   {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.about-us.info-box{
+    flex: 1;
+
+}
+.about-us.info-box h2{
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--main-color);
+    margin: 0 0 10px;
+}
+.about-us.info-box p{
+    line-height: 1.8;
+    color:orangered;
+}
+.about-us.image-box{
+    flex: 1;
+}
+.about-us.image-box img{
+
+
+}
+.skills{
+padding-top: 50px;
+padding-bottom: 50px;
+ background-color: #EEE;
+}
+.skills h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--main-color);
+    margin: 0 0 50px;
+    text-align: center;
+   
+}
+.skills .skill-box{
+background-color: #FFF;
+display: flex;
+padding: 15px;
+margin-bottom: 15px;
+}
+.skills .skill-box .skill-name{
+font-weight: 700;
+width: 12%;
+height: 30px;
+
+
+}
+
+.skills .skill-box .skill-progress{
+    height: 30px;
+    width: 100%;
+background-color: #ddd;
+border-radius: 6px;
+position: relative;
+overflow: hidden;
+}
+.skills .skill-box .skill-progress span{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    background-color:var(--main-color);
+}
+.gallery{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.gallery h2{
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--main-color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.gallery .images-box{text-align: center;
+    
+}
+.gallery .images-box img{
+    width: 200px;
+    padding: 3px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin:5px ;
+    cursor: pointer;
+    
+}
+.timeline{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: cornsilk;
+}
+.timeline .timeline-content{
+position: relative;
+overflow: hidden;
+}
+.timeline{
+width: ;
+height: 30px;
+background-color: cornsilk;
+
+}
+.timeline-content h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.timeline-content ul{
+background-color:#fffcef;
+font-weight: 600;
+}
+.features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.features  h2{
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--main-color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.features.faet-box {
+    width: calc(100% /3);
+    float: left;
+text-align: center;
+margin: 40px;
+}
+.features.faet-box img {
+    width: 10px;
+}
+.ios {
+    text-align: center;
+  background-color: #f5f5dc7a;
+  
+  
+}
+.ios h1{
+    font-weight: bold;
+ color: var(--main-color);   
+}
+.ios img{
+    width: 30%;
+    height: 30;
+}
+.end{
+    width: 100%;
+    height: 40px;
+    background-color: palevioletred;
+    text-align: center;
+    font-weight: bold;
+}
+.form{
+    color: rgb(49, 133, 202);
+    
+    font-size: x-large;
+    font-family: fantasy;
+}
+.form.label submit  {
+
+   color: brown;
+ 
+}
